@@ -42,6 +42,8 @@ for county in county_df.itertuples():
     URL = "https://www.narrpr.com/home"
     options = Options()
     options.add_experimental_option("detach", True)
+    options.add_argument("headless")
+    options.add_argument('--no-sandbox')
     driver = webdriver.Chrome(options=options)
     driver.maximize_window()
     driver.get(URL)
