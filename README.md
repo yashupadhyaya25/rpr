@@ -29,7 +29,7 @@ Realtors Property Resource® (RPR) is free for members. Scrape All Realtors prop
         **3_find_new_property.py :**
                 output_path = configur.get('name given in above step','output_path')
 
-**Step 5 :** Download chromedriver according to your chromeverison from ‘ https://chromedriver.chromium.org/downloads ’
+**Step 5 :** Download chromedriver according to your chrome verison from ‘ https://chromedriver.chromium.org/downloads ’
 
 # How to run
 
